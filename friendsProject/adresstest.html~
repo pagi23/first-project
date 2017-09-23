@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Adressbook aenderung</h1>
+<p>Felder ausfuellen bitte!</p>
+
+
+<form action="form.php" method="post" id="formid">
+	<fieldset>
+		<label><input style="width:300px;" type="text" value="Janine" name=""> First Name</label>
+       <br>
+       <label><input style="width:300px;" type="text" value="von Hodenberg" name=""> Surename</label>
+       <br>
+       <label><input style="width:300px;" type="text" value="Klosterweg 28, 76131 Karlsruhe" name=""> Adress</label>
+       <br>
+       <label><input style="width:300px;" type="text" value="mijau@emailn.de" name=""> E-Mail Adress</label>
+       <br>
+       <label><input style="width:300px;" type="text" value="Jane Ma" name=""> Facebook Name</label>
+       <br>
+       <label><input style="width:300px;" type="text" value="Wusselie" name=""> Skype Name</label>
+        <br>
+       <label><input style="width:300px;" type="text" value="muss noch gemacht werden" name=""> Google Map Link</label>
+       <br>
+       <label><input style="width:300px;" type="text" value="986 0897" name=""> ID </label>
+    </fieldset>
+    <input type="submit" value="Senden" >
+</form>
+</body>
+</html>
